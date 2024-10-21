@@ -9,10 +9,19 @@ This work, **Vseq2Human**, combines Deep Learning and Monte Carlo Simulation to 
 
 To run this project, you will need Python (version X.X or higher) and the following libraries.
 
+- biopython==1.83
+- Keras==2.4.1
+- Keras-Preprocessing==1.1.2
+- joblib==1.2.0
+- numpy==1.19.5
+- PyBioMed==1.0
+- scikit-learn==1.2.2
+- tensorflow==2.4.1
+
 ## Dependencies
 
-- **PyBioMed**:A Python library used for generating various biological sequence-based descriptors(GetDAC, GetPseDNC, GetPseKNC, GetSCPseDNC).
-- **iLearn**: A toolkit for generating numerical feature descriptors(CKSNAP, DNC, RCKmer, TNC) from biological sequences.
+- **PyBioMed:** A Python library used for generating various biological sequence-based descriptors(GetDAC, GetPseDNC, GetPseKNC, GetSCPseDNC).
+- **iLearn:** A toolkit (ttps://github.com/Superzchen/iLearn) for generating numerical feature descriptors(CKSNAP, DNC, RCKmer, TNC) from biological sequences.
 
 
 ## Usage
