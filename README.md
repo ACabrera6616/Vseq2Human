@@ -1,13 +1,13 @@
 # Vseq2Human
 
-## VAbout
+## About
 
 This work, **Vseq2Human**, combines Deep Learning and Monte Carlo Simulation to predict human-infecting viruses using genomic data. Predictions were evaluated by aggregating probability estimates from multiple runs. Class 1 (human-infecting) entries were confidently classified if at least 75% of predictions exceeded 0.5 (Q1 > 0.5), while class 0 (non-human-infecting) entries were assigned when most predictions were below 0.5 (Q3 < 0.5).
 
 
 ## Requirements:
 
-To run this project, you will need Python (version X.X or higher) and the following libraries.
+To run this project, you will need Python (version 3.8.16) and the following libraries.
 
 - biopython==1.83
 - Keras==2.4.1
@@ -21,8 +21,7 @@ To run this project, you will need Python (version X.X or higher) and the follow
 ## Dependencies
 
 - **PyBioMed:** A Python library used for generating various biological sequence-based descriptors(GetDAC, GetPseDNC, GetPseKNC, GetSCPseDNC).
-- **iLearn:** A toolkit (ttps://github.com/Superzchen/iLearn) for generating numerical feature descriptors(CKSNAP, DNC, RCKmer, TNC) from biological sequences.
-
+- **iLearn**: A toolkit [iLearn](https://github.com/Superzchen/iLearn) for generating numerical feature descriptors (CKSNAP, DNC, RCKmer, TNC) from biological sequences.
 
 ## Usage
 
@@ -30,9 +29,14 @@ To run this project, you will need Python (version X.X or higher) and the follow
 2. Install the required dependencies listed above.
 3. Run the prediction script by providing the genomic sequences for analysis.
 
+
+## Overview
+
+The provided code "DeepMC.py" train a model Vseq2Human which combines Deep Learning and Monte Carlo to predict whether viruses can infect humans based on genomic data.
+
 ## Output
 
-The output will provide a classification indicating whether a virus is predicted to infect humans (Class 1) or not (Class 0), along with the corresponding probability estimates from multiple Monte Carlo simulation runs.
+The output will provide a classification indicating whether a virus is predicted to infect humans or not, along with the corresponding probability estimates from multiple Monte Carlo simulation runs.
 
 ## For more information:
 
