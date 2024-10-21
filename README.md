@@ -7,6 +7,10 @@ This project combines Deep Learning and Monte Carlo Simulation to predict human-
 
 ## Requirements:
 
+## Dependencies
+
+    - PyBioMed: A Python library used for generating various biological sequence-based descriptors(GetDAC, GetPseDNC, GetPseKNC, GetSCPseDNC).
+    - iLearn: A toolkit for generating numerical feature descriptors(CKSNAP, DNC, RCKmer, TNC) from biological sequences.
 
 ## For more information:
 
