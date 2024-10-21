@@ -29,6 +29,11 @@ To run this project, you will need Python (version 3.8.16) and the following lib
 2. Install the required dependencies listed above.
 3. Run the prediction script by providing the genomic sequences for analysis.
 
+## Datasets:
+
+- **TRAINING_Disimilarity_0.001_py.txt:** Traning Data.
+- **EXTERNAL_Disimilarity_0.001_py.txt:** Test Data.
+- **Sample_Virus_Disimilarity_0_001.txt** External validatation dataset
 
 ## Overview
 
