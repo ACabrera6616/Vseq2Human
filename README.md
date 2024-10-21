@@ -35,7 +35,7 @@ Datasets were extracted from the Virus-Host and Virus Pathogen databases for tra
 
 - **TRAINING_Disimilarity_0.001_py:** Traning Data.
 - **EXTERNAL_Disimilarity_0.001_py:** Test Data.
-- **Sample_Virus_Disimilarity_0_001** External validatation dataset
+- **Sample_Virus_Disimilarity_0_001:** External validatation dataset
 
 ## Overview
 
