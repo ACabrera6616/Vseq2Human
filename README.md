@@ -21,7 +21,7 @@ To run this project, you will need Python (version 3.8.16) and the following lib
 ## Dependencies
 
 - **PyBioMed:** A Python library used for generating various biological sequence-based descriptors(GetDAC, GetPseDNC, GetPseKNC, GetSCPseDNC).
-- **iLearn**: A toolkit [iLearn](https://github.com/Superzchen/iLearn) for generating numerical feature descriptors (CKSNAP, DNC, RCKmer, TNC) from biological sequences.
+- **iLearn**: A [toolkit](https://github.com/Superzchen/iLearn) for generating numerical feature descriptors (CKSNAP, DNC, RCKmer, TNC) from biological sequences.
 
 ## Usage
 
