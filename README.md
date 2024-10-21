@@ -33,8 +33,8 @@ To run this project, you will need Python (version 3.8.16) and the following lib
 
 Datasets were extracted from the Virus-Host and Virus Pathogen databases for training and validating the deep learning model. Then, A set of Molecular descriptors (from PyBioMed and iLearn) were computed to evaluate the similarity of the viral genomes. The final number of genomes was obtained with a cutoff of 0.001, and the resulting datasets used for built the models are in the following files
 
-- **TRAINING_Disimilarity_0.001_py:** Traning Data.
-- **EXTERNAL_Disimilarity_0.001_py:** Test Data.
+- **TRAINING_Disimilarity_0.001:** Traning Data.
+- **EXTERNAL_Disimilarity_0.001:** Test Data.
 - **Sample_Virus_Disimilarity_0_001:** External validatation dataset
 
 ## Overview
